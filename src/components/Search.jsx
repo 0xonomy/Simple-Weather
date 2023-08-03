@@ -21,7 +21,7 @@ const Search = () => {
       <form className="searchForm" onSubmit={fetchData}>
         <div className="centerContainer">
           <img
-            src="../../public/images/logo.webp"
+            src="../images/logo.webp"
             alt="logo"
             className="logo"
           />
