@@ -30,7 +30,7 @@ const Results = () => {
           Current weather in {cityName}, {countryCode}
         </p>
         <img
-          src="../../public/images/back.svg"
+          src="../images/back.svg"
           alt="backIcon"
           className="backIcon"
           onClick={back}
@@ -39,7 +39,7 @@ const Results = () => {
       <div className="resultsContainer">
         <div className="imageContainer">
           <img
-            src={`../../public/images/weatherIcons/${iconCode}.png`}
+            src={`../images/weatherIcons/${iconCode}.png`}
             alt="weatherIcon"
             className="image"
           />
