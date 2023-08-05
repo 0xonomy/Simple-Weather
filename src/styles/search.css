@@ -1,3 +1,6 @@
+.searchContainer {
+}
+
 .searchForm {
   display: grid;
   width: 100%;
@@ -22,10 +25,17 @@
   font-size: 18px;
   width: 20em;
   height: 2em;
-  border: 2px solid #292929;
-  border-radius: 3px;
-  box-shadow: black 5px 5px;
-  padding: 3px;
+  background-color: var(--fg-color);
+  /* border: 2px solid #292929; */
+  border: none;
+  border-radius: 50px;
+  color: var(--text-color);
+  /* box-shadow: black 5px 5px; */
+  padding: 3px 10px;
+}
+
+.searchInput::placeholder {
+  color: var(--text-color);
 }
 
 .searchInput:focus {
@@ -47,7 +57,7 @@
 .message {
   font-size: 16px;
   font-weight: 700;
-  color: red;
+  color: var(--error-color);
   text-align: center;
   padding: 8px;
 }

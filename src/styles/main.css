@@ -4,3 +4,10 @@
   margin: 0;
   font-family: "Asap", sans-serif;
 }
+
+:root {
+  --bg-color: #2b2d42;
+  --fg-color: #8d99ae;
+  --text-color: #edf2f4;
+  --error-color: #d90429;
+}

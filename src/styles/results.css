@@ -65,7 +65,7 @@
 
 .imageContainer,
 .dataContainer {
-  background-color: #c4c4c4;
+  background-color: var(--fg-color);
   border-radius: 5px;
   height: 95%;
 }
@@ -82,12 +82,14 @@
 }
 
 .headerContainer {
+  color: var(--text-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .backIcon {
+  fill: var(--fg-color);
   padding: 10px;
   height: 2em;
   cursor: pointer;
