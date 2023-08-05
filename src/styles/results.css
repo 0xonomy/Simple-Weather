@@ -93,7 +93,7 @@
 }
 
 .backIcon {
-  fill: var(--fg-color);
+  fill: var(--text-color);
   padding: 10px;
   height: 2em;
   cursor: pointer;
