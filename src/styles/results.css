@@ -76,6 +76,10 @@
   font-weight: 700px;
 }
 
+.data {
+  color: var(--text-color);
+}
+
 .data:first-child {
   padding: 0.5em 0.2em;
   font-weight: 700px;
